@@ -1,6 +1,8 @@
 package org.example.HW1;
 
+
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class CoffeeDrinkMachine implements VendingMachine {
     ArrayList<Coffee> coffeeList = new ArrayList<Coffee>();
@@ -24,5 +26,15 @@ public class CoffeeDrinkMachine implements VendingMachine {
         } else {
             System.out.println("No such coffee");
         }
+    }
+
+    public void print() {
+        for (Coffee coffee : coffeeList) {
+            System.out.println(coffee);
+        }
+    }
+
+    public void sort(CoffeeComparator comparator) {
+        Collections.sort(coffeeList, comparator);
     }
 }

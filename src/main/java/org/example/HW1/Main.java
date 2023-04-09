@@ -17,5 +17,8 @@ public class Main {
 
         espressoMachine2.getProduct("Cappuccino", 200, 70);
         espressoMachine2.getProduct("Cappuccino", 400, 70);
+
+        espressoMachine1.sort(new CoffeeComparator());
+        espressoMachine1.print();
     }
 }

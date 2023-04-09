@@ -1,7 +1,6 @@
 package org.example.HW2;
 
 import org.example.HW2.*;
-
 import java.util.*;
 
 import static org.example.HW2.Data.choice;
