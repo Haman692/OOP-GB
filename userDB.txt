@@ -1,0 +1,3 @@
+User{ userID = 1, name = 'Danila', balance = 150.0 }
+User{ userID = 2, name = 'valeria', balance = 200.0 }
+User{ userID = 3, name = 'Magnolia', balance = 300.0 }
