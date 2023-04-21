@@ -3,6 +3,9 @@ package ru.gb.oseminar.data;
 import java.time.LocalDate;
 import java.util.Comparator;
 
+// У нас есть основной функционал User. из кторого мы жуе создаем студентов и учителей. Нам не приходиться изменять текуший. что бы создать новых Это O в SOLID
+// так же блогодоря этому мы можем подстовлять подклассы юзера для исполения его функций. ЭТО L в SOLID
+
 public class Teacher extends User{
 
     private Long teacherId;

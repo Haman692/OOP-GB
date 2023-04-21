@@ -6,6 +6,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+// Мы имплементим класс UserService. и дореализум нужный функционал для стубента. Это I в SOLID
+
 public class StudentService implements UserService<Student> {
 
     private final List<Student> students;
